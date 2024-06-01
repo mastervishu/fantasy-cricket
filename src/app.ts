@@ -11,7 +11,7 @@ db();
 const app: Express = express();
 
 app.use(bodyParser.json());
-app.use('/', router)
+app.use('/api', router)
 
 app.listen(PORT, HOST, async () => {
     await loadPlayerData();
