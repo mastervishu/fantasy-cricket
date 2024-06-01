@@ -18,13 +18,13 @@ Follow these steps to install and run the Fantasy Cricket App:
 
 First, clone this repository to your local machine:
 
-bash git clone bash git clone `https://github.com/mastervishu/fantasy-cricket.git`
+* bash git clone bash git clone `https://github.com/mastervishu/fantasy-cricket.git`
 
 ### Install Dependencies
 
 Navigate to the project directory and install the necessary dependencies:
 
-bash cd fantasy-cricket-app npm install
+* bash cd fantasy-cricket-app npm install
 
 This command installs all the dependencies listed in the `package.json` file.
 
