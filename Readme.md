@@ -32,8 +32,8 @@ This command installs all the dependencies listed in the `package.json` file.
 
 To start the application, run:
 
-bash npm run build
-bash npm run start
+* ** bash npm run build
+* ** bash npm run start
 
 This command starts the development server. The application should now be running on `http://127.0.0.1:5050`.
 
