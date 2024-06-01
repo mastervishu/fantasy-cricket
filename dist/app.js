@@ -21,7 +21,7 @@ const helper_1 = require("./helper");
 (0, database_1.db)();
 const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());
-app.use('/', router_1.default);
+app.use('/api', router_1.default);
 app.listen(configuration_1.PORT, configuration_1.HOST, () => __awaiter(void 0, void 0, void 0, function* () {
     yield (0, helper_1.loadPlayerData)();
     console.log(`Server is running on http://${configuration_1.HOST}:${configuration_1.PORT}`);
